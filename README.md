@@ -19,7 +19,7 @@ A command-line interface for interacting with AI models (currently supporting Go
 The CLI has access to several core functions for file and directory manipulation within its working directory:
 
 ### File Operations
-- **Read File Content**: Can read and return the contents of any text file (with character limit protection)
+- **Read File Content**: Can read and return the contents of any text file (with character limit protection of 10,000)
 - **Write File**: Can create new files and write content to them (prevents overwriting existing files)
 - **Execute Python Files**: Can run Python files and capture their output (with a 30-second timeout)
 
